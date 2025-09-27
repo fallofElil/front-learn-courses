@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo List</title>
+</head>
+
+<body class="align-items-center bg-body-tertiary">
+
+  <main class="d-flex w-100 m-auto todo-main-wrapper">
+    <div class="card m-auto" style="width: 35rem;">
+      <div class="card-body">
+        <h5 class="card-title">Планировщик заданий</h5>
+        <ul id="todoList">
+          
+        </ul>
+
+        <form id="todoTaskForm" class="d-flex flex-column gap-4">
+          <div class="d-flex flex-column">
+            <label for="todoTaskInput">Текст задания</label>
+            <input type="text" name="todo_name" placeholder="Сделать что-нибудь" id="todoTaskInput" />
+          </div>
+          <button class="btn btn-primary" type="submit">Добавить</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
