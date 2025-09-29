@@ -1,0 +1,139 @@
+body{
+    background-color: #0a0a2d;
+}
+
+.main-form {
+    font-family: 'Orbitron', 'Rajdhani', sans-serif;
+    background: linear-gradient(135deg, rgba(0, 20, 40, 0.95), rgba(0, 40, 80, 0.95));
+    border: 3px solid #00c3ff;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+}
+
+.goal {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-shadow: 0 0 30px #00fffc, 0 0 45px #0077ff;
+    margin-bottom: 30px;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.main-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid rgba(0, 195, 255, 0.3);
+}
+
+.main-table input[type="text"] {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14px;
+    background: rgba(0, 40, 80, 0.8);
+    border: 2px solid #00c3ff;
+    border-radius: 5px;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.main-table input[type="text"].main-table-uncorrect {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14px;
+    background: rgba(0, 40, 80, 0.8);
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.exe-active{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}
+
+
+.main-table input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #00c3ff;
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px #00c3ff);
+    pointer-events: none;
+}
+
+.main-table-active input[type="text"] {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: #00fffc;
+    text-shadow: 0 0 5px #00fffc;
+    pointer-events: none;
+}
+
+
+.main-table label {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #bfe2ff;
+    text-shadow: 0 0 5px rgba(191, 226, 255, 0.5);
+}
+
+#add-task {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 12px 24px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow: 0 0 5px #00fffc;
+}
+
+
+
+.delete-task {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f75151;
+    background-color: transparent;
+    border: 1px solid #ff6b6b;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 3px #ff6b6b;
+}
+
+
+.save-task {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 8px 15px;
+    border: 2px solid #00c3ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
