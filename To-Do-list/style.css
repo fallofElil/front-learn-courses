@@ -1,0 +1,17 @@
+/* Стили для завершенных задач */
+.item-name.completed {
+    text-decoration: line-through !important;
+    color: #a8aaad !important;
+    opacity: 0.7;
+}
+
+.item-index.completed {
+    border-color: #a8aaad !important;
+    color: #a8aaad !important;
+}
+
+/* Стиль для бледной иконки (используем Bootstrap класс text-muted) */
+.text-muted {
+    color: #6c757d !important;
+    opacity: 0.7;
+}
